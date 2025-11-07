@@ -1,4 +1,4 @@
-Punkt 0 – Syfte & omfattning
+## Punkt 0 – Syfte & omfattning
 {
   "id": "Next-A1-0",
   "title": "Syfte och omfattning – Variabelgiftermålet som stomme för allt",
@@ -43,8 +43,8 @@ Punkt 0 – Syfte & omfattning
   "governance": "Sektionerna 1–8 operationaliserar detta ramverk och är bindande för hur output struktureras, motiveras och kvalitetsgranskas."
 }
 
-****************************************
-Punkt 1 – JSON-schema: BacklinkArticleOutputV2_Extensions
+# ************************************************************
+# Punkt 1 – JSON-schema: BacklinkArticleOutputV2_Extensions #
 {
   "id": "Next-A1-1",
   "title": "BacklinkArticleOutputV2_Extensions",
@@ -240,8 +240,8 @@ Punkt 1 – JSON-schema: BacklinkArticleOutputV2_Extensions
     }
   }
 }
-*************************************************************
-Punkt 2 – Bryggtyp & Intent-koppling
+# ****************************************
+# Punkt 2 – Bryggtyp & Intent-koppling #
 
 {
   "id": "Next-A1-2",
@@ -282,9 +282,8 @@ Punkt 2 – Bryggtyp & Intent-koppling
     }
   }
 }
-***********************************************************************
-
-Punkt 3 – TrustkällorTrustPolicy:
+# ****************************************
+# Punkt 3 – TrustkällorTrustPolicy:
 {
   "id": "Next-A1-3",
   "title": "Trustkällor – prioritet, regler och fallback",
@@ -310,8 +309,8 @@ Punkt 3 – TrustkällorTrustPolicy:
     ]
   }
 }
-***********************************************************************
-4) LSI‑kvalitet och närfönster
+# ****************************************
+# 4) LSI‑kvalitet och närfönster
 {
   "id": "Next-A1-4",
   "title": "LSI-kvalitet och närfönster",
@@ -339,9 +338,8 @@ Punkt 3 – TrustkällorTrustPolicy:
     }
   }
 }
-***********************************************************************
-
-Punkt 5 – Publisher-fit
+# ****************************************
+# Punkt 5 – Publisher-fit
 {
   "id": "Next-A1-5",
   "title": "Publisher-fit — röstprofiler och stil",
@@ -370,9 +368,8 @@ Punkt 5 – Publisher-fit
     "log_in_intent": "Vald röst/roll ska loggas i intent_extension.publisher_role_intent och användas i intent_alignment.publisher_vs_serp."
   }
 }
-***********************************************************************
-
-Punkt 6 – Ankarrisk, placering & byteAnchor:
+# ****************************************
+# Punkt 6 – Ankarrisk, placering & byteAnchor:
 {
   "id": "Next-A1-6",
   "title": "Ankarrisk, placering och ankartypsbyte",
@@ -411,9 +408,8 @@ Punkt 6 – Ankarrisk, placering & byteAnchor:
     "interpretation_note": "Denna sektion definierar hur ankare placeras, hur risknivå bedöms och när ankartypsbyte är tillåtet enligt Autofix-policy."
   }
 }
-***********************************************************************
-
-Punkt 7 – Autofix:
+# ****************************************
+# Punkt 7 – Autofix:
 {
   "id": "Next-A1-7",
   "title": "Autofix – vad får göras utan sign-off",
@@ -439,9 +435,8 @@ Punkt 7 – Autofix:
     "comment": "Autofix är tillåtet för språk, semantik och mikrojuseringar runt länkplacering, men aldrig för grundläggande struktur eller policykritiska beslut."
   }
 }
-***********************************************************************
-
-8) QC – definitioner, trösklar och statuslogik
+# ****************************************
+# 8) QC – definitioner, trösklar och statuslogik
 {
   "id": "Next-A1-8",
   "title": "QC – definitioner, trösklar och statuslogik",
@@ -463,9 +458,8 @@ Punkt 7 – Autofix:
     ]
   }
 }
-***********************************************************************
-
-SERP Research Extension (ersatt med ditt JSON-schema)
+# ****************************************
+# SERP Research 
 {
   "$id": "serp_research_extension.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
